@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Craftivo Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./public/img/favicon.png" rel="icon">
+  <link href="./public/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="./public/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Craftivo
+  * Template URL: https://bootstrapmade.com/craftivo-bootstrap-portfolio-template/
+  * Updated: Oct 04 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="./index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/025/851/742/non_2x/minimalistic-logo-template-white-icon-of-mountain-silhouette-on-black-background-modern-logotype-concept-for-business-identity-t-shirts-print-tattoo-illustration-vector.jpg"
+          alt="">
+        <h1 class="sitename">Parque Tecnologico</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Encuesta de Satisfacción</a></li>
+          <li><a href="#completado"></a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Empieza la encuesta</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="https://parke.eus/wp-content/uploads/2023/07/zamudio-derio-espacios-1.jpg" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2>Parque Tecnológico Conocoto</h2>
+            <p>Bienvenido a la pagina del Parque Tecnológico Más Importante del Mundo <span class="typed"
+                data-typed-items="Designer, Developer, Freelancer, Photographer"></span><span class="typed-cursor"
+                aria-hidden="true"></span></p>
+
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Encuesta Section -->
+    <section id="about" class="about section">
+      <fieldset>
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <span class="subtitle">Encuesta de Satisfacción</span>
+          <form action="#completado" method="get">
+            <legend>Encuesta</legend>
+        </div>
+        <div>
+          <label for="exampleInputEmail1" class="form-label mt-4">Ingrese su nombre Completo</label>
+          <input type="text" class="form-control" required id="exampleInputEmail1" placeholder="Juan Casas"
+            value="Lenin Isaac Erazo Campos" pattern="[A-ZazÁÉÍÓÚáéíóúÑñ ]+">
+        </div>
+        <div>
+          <label for="exampleInputEmail1" class="form-label mt-4">Ingrese su email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email@mail.com"
+            value="lierazo@espe.edu.ec">
+          <small id="emailHelp" class="form-text text-muted">Nunca se compartira tu email.</small>
+        </div>
+        <div>
+          <label for="edad">INGRESE SU EDAD
+          </label>
+          <input type="number" name="edad" id="edad" placeholder="Ejm: 20" max="5" value="22" required>
+          <br>
+          <br>
+        </div>
+        <div>
+          <label for="edad">Cual fue su nivel de Satisfacción entre el 1 al 10
+
+          </label>
+          <input type="range" name="Satisfacción" id="Satisfacción" min="1" , max="10" , step="1">
+          <br>
+        </div>
+        <div>
+          <label for="fecha de nacimiento">Ingrese Fecha de la visita
+
+          </label>
+          <input type="date" required name="fecha_visita" id="fecha_visita" value="2025-12-11">
+        </div>
+        <div>
+          <label for="fecha de nacimiento">Ingrese Hora de llegada
+          </label>
+          <input type="time" required name="hora_visita" id="hora_visita" value="12:19">
+        </div>
+        <br>
+        <div>
+          <!--Checkbox-->
+          <label for="">Que te gusto más?</label>
+          <label for="tecnologia">TECNOLOGIA</label>
+          <input type="checkbox" name="tecnologia" id="tecnologia" value="tecnologia">
+          <label for="naturaleza">NATURALEZA</label>
+          <input type="checkbox" name="naturaleza" id="naturaleza" value="naturaleza">
+          <label for="MIERCOLES">ACTIVIDADES</label>
+          <input type="checkbox" name="ACTIVIDADES" id="ACTIVIDADES" value="ACTIVIDADES">
+          <br>
+          <br>
+        </div>
+        <div>
+          <label for="">Recomendarias el parque?
+          </label>
+          <label for="Si"> Si</label>
+          <input type="radio" name="si" id="si" value="si" checked>
+          <label for="No"> No
+          </label>
+          <input type="radio" name="no" id="no" value="no">
+        </div>
+        <br>
+        <br>
+        <div>
+          <label for="exampleTextarea" class="form-label mt-4">Que sugerencia nos darías?</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3" maxlength="200"></textarea>
+        </div>
+        <div>
+          <label for="exampleInputPassword1" class="form-label mt-4">Código de verificación</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+            autocomplete="off">
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+      </form>
+      </div><!-- End Section Title -->
+
+
+      <!-- Services Section -->
+      <section id="completado" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <span class="subtitle">Services</span>
+          <h2>Services</h2>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde
+            omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        </div><!-- End Section Title -->
+
+
+      </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Craftivo</span>
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
+            donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Craftivo</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="./public/js/main.js"></script>
+
+</body>
+
+</html>
